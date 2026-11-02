@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="3860" viewBox="0 0 390 3860">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#FBF5EC"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="0.5" cy="0.15" r="0.75">
+      <stop offset="0" stop-color="#FFF1CF"/>
+      <stop offset="0.45" stop-color="#FBEFE6"/>
+      <stop offset="1" stop-color="#F6F0F8"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E9C886"/>
+      <stop offset="1" stop-color="#D3A260"/>
+    </linearGradient>
+    <linearGradient id="lavender" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EEE6F5"/>
+      <stop offset="1" stop-color="#F8EFE8"/>
+    </linearGradient>
+    <linearGradient id="photo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7DCF0"/>
+      <stop offset="0.6" stop-color="#F5E4DA"/>
+      <stop offset="1" stop-color="#FCEFD9"/>
+    </linearGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="footer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6A5C7E"/>
+      <stop offset="1" stop-color="#52465F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#7A5F96" flood-opacity="0.12"/>
+    </filter>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <style>
+      .serif { font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif; }
+      .sans  { font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .h1 { font-size: 38px; fill: #4A3F5A; font-weight: 500; }
+      .h2 { font-size: 30px; fill: #4A3F5A; font-weight: 500; }
+      .h3 { font-size: 21px; fill: #4A3F5A; font-weight: 600; }
+      .eyebrow { font-size: 11.5px; letter-spacing: 3px; fill: #C29353; font-weight: 700; }
+      .body { font-size: 15px; fill: #6B6275; }
+      .small { font-size: 13px; fill: #8A8193; }
+      .strong { font-size: 15px; fill: #4A3F5A; font-weight: 700; }
+      .link { font-size: 14px; fill: #B9874A; font-weight: 700; }
+      .ph { font-size: 12px; fill: #9A8BAA; font-weight: 600; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <!-- ===== Seitenhintergrund ===== -->
+  <rect width="390" height="3860" fill="url(#bg)"/>
+
+  <!-- ===== HERO-Hintergrund ===== -->
+  <rect x="0" y="0" width="390" height="770" fill="url(#heroGlow)"/>
+  <g opacity="0.55">
+    <polygon points="195,40 120,740 160,740" fill="url(#ray)"/>
+    <polygon points="195,40 210,740 250,740" fill="url(#ray)"/>
+    <polygon points="195,40 300,740 350,740" fill="url(#ray)"/>
+    <polygon points="195,40 20,740 60,740" fill="url(#ray)"/>
+    <polygon points="195,40 -60,600 -20,640" fill="url(#ray)"/>
+    <polygon points="195,40 420,620 450,580" fill="url(#ray)"/>
+  </g>
+  <circle cx="195" cy="300" r="130" fill="#FFE7B3" opacity="0.45" filter="url(#blur)"/>
+
+  <!-- ===== Statusleiste (iPhone) ===== -->
+  <text x="32" y="30" class="sans" font-size="15" font-weight="700" fill="#4A3F5A">9:41</text>
+  <g fill="#4A3F5A">
+    <rect x="300" y="20" width="3" height="8" rx="1"/>
+    <rect x="305" y="17" width="3" height="11" rx="1"/>
+    <rect x="310" y="14" width="3" height="14" rx="1"/>
+    <rect x="330" y="16" width="24" height="12" rx="3.5" fill="none" stroke="#4A3F5A" stroke-width="1.2"/>
+    <rect x="332" y="18" width="18" height="8" rx="2"/>
+    <rect x="355.5" y="20" width="2" height="4" rx="1"/>
+  </g>
+
+  <!-- ===== Header / Navigation ===== -->
+  <g>
+    <!-- Logo-Signet -->
+    <circle cx="40" cy="76" r="15" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+    <circle cx="40" cy="76" r="9" fill="none" stroke="url(#gold)" stroke-width="1.2" opacity="0.7"/>
+    <circle cx="40" cy="76" r="3.5" fill="url(#gold)"/>
+    <text x="64" y="74" class="serif" font-size="21" font-weight="600" fill="#4A3F5A">Silvana Liebhart</text>
+    <text x="64" y="91" class="sans" font-size="10" letter-spacing="2.2" fill="#B9874A" font-weight="700">HUMANENERGETIK &#183; LIENZ</text>
+    <!-- Burger-Men&#252; -->
+    <g stroke="#4A3F5A" stroke-width="2" stroke-linecap="round">
+      <line x1="338" y1="68" x2="360" y2="68"/>
+      <line x1="344" y1="76" x2="360" y2="76"/>
+      <line x1="338" y1="84" x2="360" y2="84"/>
+    </g>
+  </g>
+
+  <!-- ===== HERO ===== -->
+  <!-- Frequenz-Ringe -->
+  <g fill="none" stroke="#D3A260">
+    <circle cx="195" cy="300" r="124" stroke-width="1" opacity="0.55"/>
+    <circle cx="195" cy="300" r="140" stroke-width="1" opacity="0.35" stroke-dasharray="2 6"/>
+    <circle cx="195" cy="300" r="158" stroke-width="1" opacity="0.2"/>
+  </g>
+  <circle cx="72" cy="210" r="4" fill="#E9C886" opacity="0.8"/>
+  <circle cx="322" cy="250" r="3" fill="#C9B6DE"/>
+  <circle cx="305" cy="408" r="5" fill="#E9C886" opacity="0.6"/>
+  <circle cx="86" cy="392" r="3" fill="#C9B6DE"/>
+
+  <!-- Foto-Platzhalter Portrait -->
+  <circle cx="195" cy="300" r="110" fill="url(#photo)" stroke="#FFFFFF" stroke-width="5" filter="url(#shadow)"/>
+  <circle cx="195" cy="300" r="102" fill="none" stroke="#BBA6CF" stroke-width="1.2" stroke-dasharray="5 5"/>
+  <g fill="none" stroke="#A895BB" stroke-width="1.8">
+    <circle cx="195" cy="278" r="22"/>
+    <path d="M155 345 C160 315 230 315 235 345"/>
+  </g>
+  <text x="195" y="368" text-anchor="middle" class="sans ph">FOTO: PORTRAIT</text>
+  <text x="195" y="383" text-anchor="middle" class="sans ph" font-weight="400">(KI-generiert)</text>
+
+  <!-- Headline -->
+  <text x="195" y="490" text-anchor="middle" class="serif h1">Licht. Frequenz.</text>
+  <text x="195" y="532" text-anchor="middle" class="serif h1" font-style="italic" fill="#B9874A">Heilung.</text>
+  <text x="195" y="572" text-anchor="middle" class="sans body">Humanenergetische Begleitung in Lienz,</text>
+  <text x="195" y="594" text-anchor="middle" class="sans body">Osttirol &#8211; f&#252;r mehr Balance, Klarheit</text>
+  <text x="195" y="616" text-anchor="middle" class="sans body">und innere Ruhe.</text>
+
+  <!-- CTA -->
+  <rect x="70" y="644" width="250" height="54" rx="27" fill="url(#gold)" filter="url(#shadow)"/>
+  <text x="195" y="676" text-anchor="middle" class="sans" font-size="16" font-weight="700" fill="#FFFFFF">Termin vereinbaren</text>
+  <text x="195" y="728" text-anchor="middle" class="sans link">Leistungen entdecken &#8595;</text>
+
+  <!-- Welle -->
+  <path d="M0 752 C 90 732, 150 772, 220 758 S 340 738, 390 752 L390 770 L0 770 Z" fill="#FFFDF9"/>
+
+  <!-- ===== &#220;BER MICH ===== -->
+  <text x="24" y="812" class="sans eyebrow">&#220;BER MICH</text>
+  <text x="24" y="850" class="serif h2">Sch&#246;n, dass du da bist</text>
+
+  <!-- Foto-Platzhalter -->
+  <rect x="24" y="874" width="342" height="250" rx="22" fill="url(#photo)" filter="url(#shadow)"/>
+  <rect x="34" y="884" width="322" height="230" rx="16" fill="none" stroke="#BBA6CF" stroke-width="1.2" stroke-dasharray="5 5"/>
+  <g fill="none" stroke="#A895BB" stroke-width="1.8" stroke-linejoin="round">
+    <rect x="173" y="964" width="44" height="34" rx="6"/>
+    <circle cx="195" cy="981" r="9"/>
+    <path d="M183 964 l5 -6 h14 l5 6"/>
+  </g>
+  <text x="195" y="1024" text-anchor="middle" class="sans ph">FOTO: SILVANA IN DER PRAXIS / NATUR</text>
+  <text x="195" y="1040" text-anchor="middle" class="sans ph" font-weight="400">(z. B. Lienzer Dolomiten im Hintergrund)</text>
+
+  <text x="24" y="1162" class="sans body">Ich bin Silvana, Humanenergetikerin aus</text>
+  <text x="24" y="1184" class="sans body">Lienz. Seit vielen Jahren begleite ich</text>
+  <text x="24" y="1206" class="sans body">Menschen dabei, wieder in ihre Kraft und</text>
+  <text x="24" y="1228" class="sans body">in ihr inneres Gleichgewicht zu finden &#8211;</text>
+  <text x="24" y="1250" class="sans body">achtsam, liebevoll und mit offenem Herzen.</text>
+
+  <!-- Philosophie-Karte -->
+  <rect x="24" y="1280" width="342" height="160" rx="20" fill="url(#lavender)"/>
+  <g transform="translate(56 1318)">
+    <circle r="16" fill="#FFFFFF"/>
+    <path d="M0 -8 C 6 -2, 6 4, 0 9 C -6 4, -6 -2, 0 -8 Z" fill="url(#gold)"/>
+  </g>
+  <text x="84" y="1324" class="serif h3">Meine Philosophie</text>
+  <text x="44" y="1364" class="sans body">Jeder Mensch tr&#228;gt sein eigenes Licht in</text>
+  <text x="44" y="1386" class="sans body">sich. Ich unterst&#252;tze dich dabei, es wieder</text>
+  <text x="44" y="1408" class="sans body">zu sp&#252;ren und frei flie&#223;en zu lassen.</text>
+
+  <!-- Ausbildung & Werdegang -->
+  <text x="24" y="1488" class="serif h3">Ausbildung &amp; Werdegang</text>
+  <line x1="36" y1="1516" x2="36" y2="1720" stroke="#E2CFA8" stroke-width="2"/>
+  <g>
+    <circle cx="36" cy="1522" r="7" fill="#FFFDF9" stroke="url(#gold)" stroke-width="2.5"/>
+    <text x="58" y="1520" class="sans small" fill="#B9874A" font-weight="700">20XX</text>
+    <text x="58" y="1541" class="sans strong">Diplom Humanenergetikerin</text>
+    <text x="58" y="1561" class="sans small">Ausbildungsinstitut, Ort</text>
+  </g>
+  <g>
+    <circle cx="36" cy="1598" r="7" fill="#FFFDF9" stroke="url(#gold)" stroke-width="2.5"/>
+    <text x="58" y="1596" class="sans small" fill="#B9874A" font-weight="700">20XX</text>
+    <text x="58" y="1617" class="sans strong">Ausbildung URSA Methode</text>
+    <text x="58" y="1637" class="sans small">Zertifizierung, Ort</text>
+  </g>
+  <g>
+    <circle cx="36" cy="1674" r="7" fill="url(#gold)"/>
+    <text x="58" y="1672" class="sans small" fill="#B9874A" font-weight="700">SEIT 20XX</text>
+    <text x="58" y="1693" class="sans strong">Eigene Praxis in Lienz</text>
+    <text x="58" y="1713" class="sans small">Gewerbe Humanenergetik, Osttirol</text>
+  </g>
+
+  <!-- ===== LEISTUNGEN ===== -->
+  <path d="M0 1770 C 100 1750, 260 1790, 390 1764 L390 2920 L0 2920 Z" fill="#F4EEF7"/>
+  <text x="24" y="1824" class="sans eyebrow">LEISTUNGEN</text>
+  <text x="24" y="1862" class="serif h2">Wie ich dich begleite</text>
+  <text x="24" y="1894" class="sans body">Sanfte Methoden f&#252;r K&#246;rper, Geist und</text>
+  <text x="24" y="1916" class="sans body">Seele &#8211; individuell auf dich abgestimmt.</text>
+
+  <!-- Karte 1: Geistfeld Lesung -->
+  <g transform="translate(24 1946)">
+    <rect width="342" height="214" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="44" cy="46" r="24" fill="url(#lavender)"/>
+    <g transform="translate(44 46)" fill="none" stroke="#B9874A" stroke-width="1.8" stroke-linecap="round">
+      <path d="M-12 0 C -6 -8, 6 -8, 12 0 C 6 8, -6 8, -12 0 Z"/>
+      <circle r="3.5" fill="#B9874A" stroke="none"/>
+      <line x1="0" y1="-16" x2="0" y2="-12"/>
+      <line x1="-11" y1="-12" x2="-8" y2="-9"/>
+      <line x1="11" y1="-12" x2="8" y2="-9"/>
+    </g>
+    <text x="82" y="44" class="serif h3">Geistfeld Lesung</text>
+    <text x="82" y="64" class="sans small">ca. 60 Minuten</text>
+    <text x="20" y="104" class="sans body">Ich lese in deinem Energiefeld und mache</text>
+    <text x="20" y="126" class="sans body">sichtbar, was dich blockiert &#8211; f&#252;r neue</text>
+    <text x="20" y="148" class="sans body">Klarheit auf deinem Weg.</text>
+    <text x="20" y="190" class="sans link">Mehr erfahren &#8594;</text>
+  </g>
+
+  <!-- Karte 2: URSA Methode -->
+  <g transform="translate(24 2180)">
+    <rect width="342" height="214" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="44" cy="46" r="24" fill="url(#lavender)"/>
+    <g transform="translate(44 46)" fill="none" stroke="#B9874A" stroke-width="1.8" stroke-linecap="round">
+      <path d="M0 0 m0 -2 a2 2 0 1 1 -2 2 a4 4 0 0 1 4 -4 a6 6 0 0 1 6 6 a8 8 0 0 1 -8 8 a10 10 0 0 1 -10 -10 a12 12 0 0 1 12 -12"/>
+    </g>
+    <text x="82" y="44" class="serif h3">URSA Methode</text>
+    <text x="82" y="64" class="sans small">ca. 60 Minuten</text>
+    <text x="20" y="104" class="sans body">Eine sanfte Methode zur Harmonisierung</text>
+    <text x="20" y="126" class="sans body">deiner Energiezentren, die K&#246;rper und</text>
+    <text x="20" y="148" class="sans body">Seele wieder in Einklang bringt.</text>
+    <text x="20" y="190" class="sans link">Mehr erfahren &#8594;</text>
+  </g>
+
+  <!-- Karte 3: Fu&#223;anwendung -->
+  <g transform="translate(24 2414)">
+    <rect width="342" height="214" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="44" cy="46" r="24" fill="url(#lavender)"/>
+    <g transform="translate(44 48)" fill="#B9874A">
+      <ellipse cx="0" cy="3" rx="6" ry="9"/>
+      <circle cx="-5" cy="-10" r="2.2"/>
+      <circle cx="-1" cy="-12" r="2"/>
+      <circle cx="3" cy="-11.5" r="1.8"/>
+      <circle cx="6.5" cy="-9.5" r="1.6"/>
+    </g>
+    <text x="82" y="44" class="serif h3">Fu&#223;anwendung</text>
+    <text x="82" y="64" class="sans small">ca. 45 Minuten</text>
+    <text x="20" y="104" class="sans body">&#220;ber die F&#252;&#223;e aktiviere ich die Energie-</text>
+    <text x="20" y="126" class="sans body">bahnen deines K&#246;rpers &#8211; wohltuend,</text>
+    <text x="20" y="148" class="sans body">erdend und tief entspannend.</text>
+    <text x="20" y="190" class="sans link">Mehr erfahren &#8594;</text>
+  </g>
+
+  <!-- Karte 4: K&#246;rperkerzen -->
+  <g transform="translate(24 2648)">
+    <rect width="342" height="214" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="44" cy="46" r="24" fill="url(#lavender)"/>
+    <g transform="translate(44 46)">
+      <rect x="-4" y="-2" width="8" height="16" rx="2" fill="none" stroke="#B9874A" stroke-width="1.8"/>
+      <path d="M0 -15 C 5 -9, 4 -5, 0 -4 C -4 -5, -5 -9, 0 -15 Z" fill="url(#gold)"/>
+    </g>
+    <text x="82" y="44" class="serif h3">K&#246;rperkerzen</text>
+    <text x="82" y="64" class="sans small">ca. 45 Minuten</text>
+    <text x="20" y="104" class="sans body">Die W&#228;rme der K&#246;rperkerzen l&#246;st Span-</text>
+    <text x="20" y="126" class="sans body">nungen, reinigt dein Energiefeld und</text>
+    <text x="20" y="148" class="sans body">schenkt dir wohltuende Geborgenheit.</text>
+    <text x="20" y="190" class="sans link">Mehr erfahren &#8594;</text>
+  </g>
+
+  <!-- ===== ZITAT-BAND ===== -->
+  <rect x="0" y="2920" width="390" height="200" fill="url(#heroGlow)"/>
+  <text x="195" y="2990" text-anchor="middle" class="serif" font-size="56" fill="#E2C48C">&#8220;</text>
+  <text x="195" y="3022" text-anchor="middle" class="serif" font-size="23" font-style="italic" fill="#4A3F5A">Heilung beginnt dort, wo wir</text>
+  <text x="195" y="3052" text-anchor="middle" class="serif" font-size="23" font-style="italic" fill="#4A3F5A">uns selbst wieder sp&#252;ren.</text>
+  <text x="195" y="3086" text-anchor="middle" class="sans small" letter-spacing="1.5">&#8212; SILVANA LIEBHART</text>
+
+  <!-- ===== TERMIN ===== -->
+  <text x="24" y="3172" class="sans eyebrow">TERMIN VEREINBAREN</text>
+  <text x="24" y="3210" class="serif h2">Ich freue mich auf dich</text>
+  <text x="24" y="3242" class="sans body">Ruf mich einfach an oder schreib mir eine</text>
+  <text x="24" y="3264" class="sans body">E-Mail &#8211; gemeinsam finden wir deinen Termin.</text>
+
+  <!-- Telefon -->
+  <g transform="translate(24 3292)">
+    <rect width="342" height="84" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="44" cy="42" r="24" fill="url(#gold)"/>
+    <path transform="translate(44 42)" d="M-7 -9 l4 -1 l3 6 l-3 2 a12 12 0 0 0 6 6 l2 -3 l6 3 l-1 4 c-1 2 -3 2 -5 1.5 a20 20 0 0 1 -11.5 -11.5 c-0.5 -2 -0.5 -4 1.5 -5 z" fill="#FFFFFF"/>
+    <text x="84" y="36" class="sans small">Anrufen</text>
+    <text x="84" y="58" class="sans" font-size="17" font-weight="700" fill="#4A3F5A">+43 664 000 00 00</text>
+    <text x="318" y="48" text-anchor="middle" class="sans" font-size="18" fill="#C29353">&#8250;</text>
+  </g>
+
+  <!-- E-Mail -->
+  <g transform="translate(24 3396)">
+    <rect width="342" height="84" rx="20" fill="#FFFFFF" filter="url(#shadow)"/>
+    <circle cx="44" cy="42" r="24" fill="#C9B6DE"/>
+    <g transform="translate(44 42)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round">
+      <rect x="-10" y="-7" width="20" height="14" rx="2"/>
+      <path d="M-10 -6 L0 2 L10 -6"/>
+    </g>
+    <text x="84" y="36" class="sans small">E-Mail schreiben</text>
+    <text x="84" y="58" class="sans" font-size="17" font-weight="700" fill="#4A3F5A">info@silvana-liebhart.at</text>
+    <text x="318" y="48" text-anchor="middle" class="sans" font-size="18" fill="#C29353">&#8250;</text>
+  </g>
+
+  <!-- Praxis / Ort -->
+  <g transform="translate(24 3500)">
+    <rect width="342" height="100" rx="20" fill="url(#lavender)"/>
+    <g transform="translate(44 50)">
+      <circle r="24" fill="#FFFFFF"/>
+      <path d="M0 -11 a8 8 0 0 1 8 8 c0 6 -8 14 -8 14 c0 0 -8 -8 -8 -14 a8 8 0 0 1 8 -8 z" fill="none" stroke="#B9874A" stroke-width="1.8"/>
+      <circle cy="-3" r="2.8" fill="#B9874A"/>
+    </g>
+    <text x="84" y="40" class="sans strong">Praxis in Lienz</text>
+    <text x="84" y="61" class="sans small">Musterstra&#223;e 1, 9900 Lienz, Osttirol</text>
+    <text x="84" y="80" class="sans small">Termine nach Vereinbarung</text>
+  </g>
+
+  <!-- ===== FOOTER ===== -->
+  <path d="M0 3660 C 110 3640, 250 3676, 390 3652 L390 3860 L0 3860 Z" fill="url(#footer)"/>
+  <circle cx="195" cy="3712" r="13" fill="none" stroke="#E9C886" stroke-width="1.4"/>
+  <circle cx="195" cy="3712" r="7.5" fill="none" stroke="#E9C886" stroke-width="1.1" opacity="0.7"/>
+  <circle cx="195" cy="3712" r="3" fill="#E9C886"/>
+  <text x="195" y="3756" text-anchor="middle" class="serif" font-size="22" font-weight="600" fill="#FFFFFF">Silvana Liebhart</text>
+  <text x="195" y="3776" text-anchor="middle" class="sans" font-size="10" letter-spacing="2.2" fill="#E9C886" font-weight="700">HUMANENERGETIKERIN &#183; LIENZ</text>
+  <text x="195" y="3806" text-anchor="middle" class="sans" font-size="13" fill="#E6DDEE">&#220;ber mich  &#183;  Leistungen  &#183;  Termin</text>
+  <text x="195" y="3830" text-anchor="middle" class="sans" font-size="12" fill="#B9AEC6">Impressum  &#183;  Datenschutz  &#183;  &#169; 2026</text>
+</svg>
