@@ -149,7 +149,7 @@
   <use href="#star" class="star-rose" x="338" y="872" width="18" height="18"/>
   <use href="#star" class="star-lav" x="358" y="900" width="10" height="10"/>
 
-  <text x="24" y="1232" class="sans body">Ich bin Silvana &#8211; Humanenergetikerin und</text>
+  <text x="24" y="1232" class="sans body">Ich bin Silvana &#8211; Energetikerin und</text>
   <text x="24" y="1254" class="sans body">mediale Beraterin aus Osttirol. Seit vielen</text>
   <text x="24" y="1276" class="sans body">Jahren begleite ich Menschen dabei, wieder</text>
   <text x="24" y="1298" class="sans body">in ihre Kraft und ihr Gleichgewicht zu finden &#8211;</text>
@@ -172,7 +172,7 @@
   <g>
     <circle cx="36" cy="1592" r="7" fill="#FFFCF9" stroke="#B9A6D6" stroke-width="2.5"/>
     <text x="58" y="1590" class="sans small" fill="#B47D74" font-weight="700">20XX</text>
-    <text x="58" y="1611" class="sans strong">Diplom Humanenergetikerin</text>
+    <text x="58" y="1611" class="sans strong">Diplom Energetikerin</text>
     <text x="58" y="1631" class="sans small">Ausbildungsinstitut, Ort</text>
   </g>
   <g>
@@ -185,7 +185,7 @@
     <circle cx="36" cy="1744" r="7" fill="url(#rose)"/>
     <text x="58" y="1742" class="sans small" fill="#B47D74" font-weight="700">SEIT 20XX</text>
     <text x="58" y="1763" class="sans strong">Eigene Praxis in Tristach</text>
-    <text x="58" y="1783" class="sans small">Gewerbe Humanenergetik, Osttirol</text>
+    <text x="58" y="1783" class="sans small">Gewerbe Energetik, Osttirol</text>
   </g>
 
   <!-- ===== LEISTUNGEN ===== -->
@@ -367,7 +367,7 @@
   <path d="M0 5290 C 110 5270, 250 5306, 390 5282 L390 5560 L0 5560 Z" fill="url(#footer)"/>
   <image href="assets/logo-baum.png" x="166" y="5316" width="58" height="76"/>
   <text x="195" y="5428" text-anchor="middle" class="serif" font-size="24" font-style="italic" font-weight="600" fill="#B47D74">Silvana Liebhart</text>
-  <text x="195" y="5448" text-anchor="middle" class="sans" font-size="10" letter-spacing="2.2" fill="#8C8290" font-weight="700">MEDIALE BERATUNG &#183; HUMANENERGETIK</text>
+  <text x="195" y="5448" text-anchor="middle" class="sans" font-size="10" letter-spacing="2.2" fill="#8C8290" font-weight="700">MEDIALE BERATUNG &#183; Energetik</text>
   <rect x="135" y="5464" width="120" height="2" rx="1" fill="url(#spectrum)"/>
   <text x="195" y="5492" text-anchor="middle" class="sans" font-size="13" fill="#5B4A5E">&#220;ber mich  &#183;  Leistungen  &#183;  Termin</text>
   <text x="195" y="5516" text-anchor="middle" class="sans" font-size="12" fill="#8C8290">Impressum  &#183;  Datenschutz  &#183;  &#169; 2026</text>

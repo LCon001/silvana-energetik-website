@@ -1,4 +1,4 @@
-Website für Silvana Liebhart, eine Humanenergetikerin aus Lienz in Osttirol.
+Website für Silvana Liebhart, eine Energetikerin aus Lienz in Osttirol.
 
 https://www.silvana-liebhart.at
 

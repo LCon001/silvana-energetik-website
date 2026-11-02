@@ -84,7 +84,7 @@
     <circle cx="40" cy="76" r="9" fill="none" stroke="url(#gold)" stroke-width="1.2" opacity="0.7"/>
     <circle cx="40" cy="76" r="3.5" fill="url(#gold)"/>
     <text x="64" y="74" class="serif" font-size="21" font-weight="600" fill="#4A3F5A">Silvana Liebhart</text>
-    <text x="64" y="91" class="sans" font-size="10" letter-spacing="2.2" fill="#B9874A" font-weight="700">HUMANENERGETIK &#183; LIENZ</text>
+    <text x="64" y="91" class="sans" font-size="10" letter-spacing="2.2" fill="#B9874A" font-weight="700">Energetik &#183; LIENZ</text>
     <!-- Burger-Men&#252; -->
     <g stroke="#4A3F5A" stroke-width="2" stroke-linecap="round">
       <line x1="338" y1="68" x2="360" y2="68"/>
@@ -145,7 +145,7 @@
   <text x="195" y="1024" text-anchor="middle" class="sans ph">FOTO: SILVANA IN DER PRAXIS / NATUR</text>
   <text x="195" y="1040" text-anchor="middle" class="sans ph" font-weight="400">(z. B. Lienzer Dolomiten im Hintergrund)</text>
 
-  <text x="24" y="1162" class="sans body">Ich bin Silvana, Humanenergetikerin aus</text>
+  <text x="24" y="1162" class="sans body">Ich bin Silvana, Energetikerin aus</text>
   <text x="24" y="1184" class="sans body">Lienz. Seit vielen Jahren begleite ich</text>
   <text x="24" y="1206" class="sans body">Menschen dabei, wieder in ihre Kraft und</text>
   <text x="24" y="1228" class="sans body">in ihr inneres Gleichgewicht zu finden &#8211;</text>
@@ -168,7 +168,7 @@
   <g>
     <circle cx="36" cy="1522" r="7" fill="#FFFDF9" stroke="url(#gold)" stroke-width="2.5"/>
     <text x="58" y="1520" class="sans small" fill="#B9874A" font-weight="700">20XX</text>
-    <text x="58" y="1541" class="sans strong">Diplom Humanenergetikerin</text>
+    <text x="58" y="1541" class="sans strong">Diplom Energetikerin</text>
     <text x="58" y="1561" class="sans small">Ausbildungsinstitut, Ort</text>
   </g>
   <g>
@@ -181,7 +181,7 @@
     <circle cx="36" cy="1674" r="7" fill="url(#gold)"/>
     <text x="58" y="1672" class="sans small" fill="#B9874A" font-weight="700">SEIT 20XX</text>
     <text x="58" y="1693" class="sans strong">Eigene Praxis in Lienz</text>
-    <text x="58" y="1713" class="sans small">Gewerbe Humanenergetik, Osttirol</text>
+    <text x="58" y="1713" class="sans small">Gewerbe Energetik, Osttirol</text>
   </g>
 
   <!-- ===== LEISTUNGEN ===== -->
@@ -315,7 +315,7 @@
   <circle cx="195" cy="3712" r="7.5" fill="none" stroke="#E9C886" stroke-width="1.1" opacity="0.7"/>
   <circle cx="195" cy="3712" r="3" fill="#E9C886"/>
   <text x="195" y="3756" text-anchor="middle" class="serif" font-size="22" font-weight="600" fill="#FFFFFF">Silvana Liebhart</text>
-  <text x="195" y="3776" text-anchor="middle" class="sans" font-size="10" letter-spacing="2.2" fill="#E9C886" font-weight="700">HUMANENERGETIKERIN &#183; LIENZ</text>
+  <text x="195" y="3776" text-anchor="middle" class="sans" font-size="10" letter-spacing="2.2" fill="#E9C886" font-weight="700">Energetikerin &#183; LIENZ</text>
   <text x="195" y="3806" text-anchor="middle" class="sans" font-size="13" fill="#E6DDEE">&#220;ber mich  &#183;  Leistungen  &#183;  Termin</text>
   <text x="195" y="3830" text-anchor="middle" class="sans" font-size="12" fill="#B9AEC6">Impressum  &#183;  Datenschutz  &#183;  &#169; 2026</text>
 </svg>

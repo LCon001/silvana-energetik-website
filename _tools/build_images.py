@@ -19,7 +19,8 @@ ROSE_LIGHT = (255, 238, 230)
 # Name im Web -> (Quelldatei, Gamma, Rosé-Anteil)
 PHOTOS = {
     "silvana-workshop": ("Silvana bei einem Workshop optimiert (KI).jpg", 0.96, 0.05),
-    "behandlungsraum": ("Behandlungsraum optimiert (KI).jpg", 0.96, 0.03),
+    "behandlungsraum": ("Behandlungsraum optimiert dezent (KI).jpg", 0.98, 0.03),
+    "behandlungsraum-stark": ("Behandlungsraum optimiert (KI).jpg", 0.96, 0.03),
     "fussanwendung": ("Fußanwendung Fußsohlen optimiert (KI).jpg", 0.96, 0.05),
     "koerperkerzen-sirona": ("Körperkerzen mit Sirona Essenzen optimiert (KI).jpg", 0.96, 0.05),
     "workshop-koerperkerzen": ("Workshop Körperkerzen optimiert (KI).jpg", 0.96, 0.05),
@@ -78,7 +79,7 @@ def build_photos():
 
 
 def build_logo():
-    src = Image.open(ORIGINAL / "Logo Silvana Liebhart.jpeg")
+    src = Image.open(ORIGINAL / "Logo Silvana Liebhart (korrigiert).png").convert("RGB")
     logo = white_to_alpha(src.crop((160, 170, 1882, 1892)).resize((900, 900), Image.LANCZOS))
     logo.save(OUT / "logo.webp", quality=90, method=6)
     logo.resize((600, 600), Image.LANCZOS).save(OUT / "logo-600.webp", quality=90, method=6)
