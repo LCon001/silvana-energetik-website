@@ -32,7 +32,20 @@
 
   toggle?.addEventListener("click", () => setMenu(true));
   closeBtn?.addEventListener("click", () => setMenu(false));
-  menu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMenu(false)));
+  menu?.querySelectorAll("a").forEach((link) =>
+    link.addEventListener("click", (e) => {
+      const target = link.hash && document.querySelector(link.hash);
+      setMenu(false);
+      if (!target) return;
+      // Mobile Chrome verwirft den Anker-Sprung, solange body noch overflow:hidden hat
+      e.preventDefault();
+      requestAnimationFrame(() => {
+        const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        target.scrollIntoView({ behavior: smooth ? "smooth" : "auto", block: "start" });
+        history.pushState(null, "", link.hash);
+      });
+    })
+  );
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && menu?.classList.contains("is-open")) setMenu(false);
   });
