@@ -1,3 +1,5 @@
 .DS_Store
 __pycache__/
 .playwright-mcp/
+# Lokale Arbeitsdateien (nicht veröffentlichen)
+/local_assets/
